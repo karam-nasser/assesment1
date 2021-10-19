@@ -1,16 +1,17 @@
 //////////////////PROBLEM 1////////////////////
-/* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
+/* Create a copy of the faveColors array called 'colorCopy' using the slice method. 
+*/
 
-const faveColors = ['red', 'green', 'black']
+// const faveColors = ['red', 'green', 'black']
 
-const colorCopy = faveColors.slice;
-
+// const colorCopy = faveColors.slice()
+// console.log(colorCopy)
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
-const count = colorCopy.push('white');
-console.log(colorCopy);
+// const count = colorCopy.push('white');
+// console.log(colorCopy);
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -18,10 +19,10 @@ console.log(colorCopy);
   numbers array that will capture only the middle numbers (2, 3, 4).
 */
 
-const numbers = [1, 2, 3, 4, 5]
+// const numbers = [1, 2, 3, 4, 5]
 
-const middleNums = numbers.splice(2, 3, 4);
-console.log(middleNums);
+// const middleNums = numbers.splice(1, 3);
+// console.log(middleNums);
 
 
 //////////////////PROBLEM 4////////////////////
@@ -37,15 +38,26 @@ console.log(middleNums);
   Return the answers array inside of the function.
 */
 
-function bigOrSmall(arr){
-let arr = numbers;
-let array = answers;
-}
-for (let arr = 0; arr < 100; arr++){
-  if (arr > 100);
-  console.log('big');
-  if (arr <= 100);
-  console.log('small');
+
+// (let arr = 0; arr < 100; arr++); {
+//   if (arr > 100);
+//   console.log('big');
+//   if (arr <= 100);
+//   console.log('smal l');
+// }
+
+function bigOrSmall(arr) {
+  let answers = [];
+  for (let i = 0; i <= 100; i++) {
+    let currentValue = arr[i];
+    if (currentValue <= 100) {
+      answers.push("big")
+    } else {
+      answers.push("small")
+    }
+  }
+  return answers
 }
 
-
+let exampleArray = [1, 2, 10, 200]
+console.log(bigOrSmall(exampleArray))

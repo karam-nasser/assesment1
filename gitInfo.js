@@ -34,8 +34,7 @@ let gitHubDefinition = "A place to upload code";
     following the guidelines above to describe the init command.
 */
 
-let object = {
-    name: "init",
+let init = {
     description: "command to create a new repository",
     code: "git init"
 };
@@ -46,8 +45,7 @@ let object = {
     following the guidelines above to describe the clone command.
 */
 
-let object = {
-    name: "clone",
+let clone = {
     description: "used copy an existing git repository into a new directory",
     code: "cd, goto repository page, click download"
 };
@@ -58,8 +56,7 @@ let object = {
     following the guidelines above to describe the status command.
 */
 
-let object = {
-    name: "status",
+let status = {
     description: "displays the state of the working directory",
     code: "git status"
 };
@@ -70,8 +67,7 @@ let object = {
     following the guidelines above to describe the add command.
 */
 
-let object = {
-    name: "add",
+let add = {
     description: "add a change in the working directory",
     code: "git add"
 };
@@ -84,8 +80,7 @@ let object = {
     following the guidelines above to describe the commit command.
 */
 
-let object = {
-    name: "commit",
+let commit = {
     description: "captures a snapshot of the project's current changes",
     code: "git commit"
 };
@@ -97,8 +92,7 @@ let object = {
     following the guidelines above to describe the push command.
 */
 
-let object = {
-    name: "push",
+let push = {
     description: "upload local repository content to a remote repository",
     code: "git push"
 };

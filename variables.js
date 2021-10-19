@@ -6,12 +6,12 @@ let myName = "Karam Nasser"
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
-Let faveNum = "7"
+let faveNum = "7"
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
-Let lovesCode = "true";
+let lovesCode = "true";
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -20,10 +20,10 @@ Let lovesCode = "true";
   If it's not, console.log('not lucky 13').
 */
 
-if (faveNum = 13){
+if (faveNum === 13){
   console.log("lucky 13!");
 } else {
-  console.log("not luck 13");
+  console.log("not lucky 13");
 }
 
 //////////////////PROBLEM 5////////////////////
@@ -31,6 +31,7 @@ if (faveNum = 13){
   Write a for loop that prints out your faveNum 5 times.
 */
 
-for (let i =0; i < 6 ; i++){
-  console.log(faveNum)
-}
+for (let i = 0; i < 5; i++) {
+  console.log(faveNum);
+};
+
